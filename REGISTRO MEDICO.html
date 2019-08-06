@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	
+	<!--Estilos en Css -->
+		
+    <title>Registo Médico</title>
+  </head>
+  <body>
+	<div class = "jumbotron text-center"> 
+    <h1>REGISTRO MÉDICO</h1>
+	<p> Formulario de Registro Médico </p>
+	</div>
+	<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header"></legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Primer Nombre" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control" required>
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="Address" name="Address" type="text" placeholder="Dirección" class="form-control" required>
+                            </div>
+                        </div>
+						
+						
+						  <div class="form-group"> <!-- State Button -->
+							<label for="state_id" class="control-label">Seguro Médico</label>
+								<select class="form-control" id="state_id">
+									<option value="PHI"required>PHI</option>
+										<option value="Roble Med" required>Roble Med</option>
+										<option value="Salud Siempre"required>Salud Siempre</option>
+										<option value="Modular"required>Modular</option>
+           
+        </select>                    
+    </div>
+					  <div class="row ">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                  <span class="help-block text-muted small-font" > Dia de cita</span>
+                  <input type="text" class="form-control" placeholder="Day" />
+              </div>
+         <div class="col-md-3 col-sm-3 col-xs-3">
+                  <span class="help-block text-muted small-font" >  Mes de Cita</span>
+                  <input type="text" class="form-control" placeholder="Month" />
+              </div>
+        </div>
+						
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Describa el Motivo de su cita" rows="7"></textarea>
+                            </div>
+                        </div>
+						
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+		
+	
+    </tr>
+  </thead>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html> 
