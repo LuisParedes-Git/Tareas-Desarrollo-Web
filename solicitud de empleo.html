@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	
+	<!--Estilos en Css -->
+		
+    <title>Formulario de Empleo</title>
+  </head>
+  <body>
+	<div class = "jumbotron text-center"> 
+    <h1>SOLICITUD DE EMPLEO</h1>
+	<p> Llena el siguiente formulario si quieres trabajar con nosotros </p>
+	</div>
+	<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header"></legend>
+						<div class = "col-sm-4">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre Completo" class="form-control" required>
+                           
+                        </div>
+						</div>
+						<div class = "col-sm-4">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control" required>
+                            </div>
+                        </div>
+						 
+						 <div class = "col-sm-4">
+							<fieldset>
+							<legend>Sexo<abbr title="This field is mandatory">*</abbr></legend>
+							<input type="radio" required name="title" id="r1" value="M" ><label for="r1">M </label>
+							<input type="radio" required name="title" id="r2" value="F"><label for="r2">F</label>
+							</fieldset>
+								</p>
+								</div>
+						
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control" required>
+                            </div>
+                        </div>
+						<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="Address" name="Address" type="text" placeholder="Dirección" class="form-control" required>
+                            </div>
+                        </div>
+						
+						<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="Salary" name="Salary" type="text" placeholder="Salario esperado" class="form-control" required>
+                            </div>
+                        </div>
+					<div class="form-group"> <!-- State Button -->
+        <label for="state_id" class="control-label" required>Lugar donde te gustaria trabajar</label>
+        <select class="form-control" id="state_id">
+            <option value="INTERIOR">INTERIOR</option>
+            <option value="EXTERIOR">EXTERIOR</option>          
+        </select>                    
+    </div>
+	<div class="form-group"> <!-- State Button -->
+        <label for="state_id" class="control-label" required>Área donde estas aplicando </label>
+        <select class="form-control" id="state_id">
+            <option value="Administrativa">administrativa</option>
+            <option value="Técnico">tecnico</option>     
+			<option value="Ventas">ventas</option>
+            <option value="Supervisor">supervisor</option>
+			<option value="Diseño">diseño</option>
+            <option value="Ánalisis">analisis</option>			
+        </select>                    
+    </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Describa su experiencia en el áre seleccionada" rows="7"></textarea>
+                            </div>
+                        </div>
+						
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+		
+	
+    </tr>
+  </thead>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html> 
